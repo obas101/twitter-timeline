@@ -25,6 +25,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-top: 2rem;
 }
 .awesome {
     margin: 0;
@@ -32,8 +33,8 @@ ul {
     width: 3rem;
 }
 li {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
 }
 #headContainer {
     height: 80vh;
@@ -45,6 +46,11 @@ li {
 }
 .fa-hashtag {
     margin-bottom: 2rem;
+}
+.pushdown {
+    position: relative;
+    top: 10.4vh;
+    border-top: 1px solid #414446;
 }
 #bt1 {
     width: 100%;
@@ -64,7 +70,7 @@ li {
     font-weight: bolder;
     border-radius: 2rem;
     height: 2.5rem;
-    width: 10rem;
+    width: 7rem;
     border: none;
     margin-bottom: 3rem;
     margin-right: 1rem;
@@ -97,10 +103,10 @@ li {
 .twittersearch {
     width: 91%;
     background-color: #192734;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.1rem;
+    padding: 0.8rem 1rem 0.8rem 1rem;
     border-radius: 3.5rem;
+    border-left: 1px solid #414446;
     border: none;    
     border-inline: none;
 }
@@ -125,6 +131,8 @@ li {
     border-right: 1px solid #414446;
 }
 .homeTop {
+    position: fixed;
+    z-index: 50;
     background-color: #10171e;
     color: white;
     height: 7vh;
@@ -133,6 +141,7 @@ li {
     margin-top: 0;
     margin: #414446;
     border-bottom: 1px solid #414446;
+    width: 43%;
 }
 .rowArea {
     height: 30vh; 
@@ -164,7 +173,7 @@ li {
 }
 .iconengagements {
     display: inline;
-    width: 85%;rem;
+    width: 85%;
     font-size: 1rem;
 }
 .bodyinfo {
@@ -189,6 +198,7 @@ li {
 }
 .column3 {
     position: fixed;
+    z-index: 50;
     left: 67%;
     background-color:#10171e;
     width: 33%;
@@ -196,16 +206,25 @@ li {
     border-left: 1px solid #414446;
 }
 .infoColumn3 {
-    position: relative;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: left;
 }
 .searchDiv {
+    position: fixed;
+    margin: 0 auto;
+    margin-left: 2.7rem;
     background-color: #10171e;
     margin-top: 0.8rem;
     margin-bottom: 1rem;
-    box-sizing: border-box;
+    width: 22.2rem;
+}
+.all {
+    position: relative;  
+    top: 5rem; 
+    width: 80%; 
+    margin: 0 auto;
+    text-align: left;
 }
 
 .trend2 {
@@ -256,7 +275,7 @@ li {
     border-bottom-right-radius: 1rem;
 }
 
-#headContainer {
+.headContainer {
     margin: 0 auto;
     width: 50%;
 }
